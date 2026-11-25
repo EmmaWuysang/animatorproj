@@ -112,7 +112,7 @@ fn branch(p: Point, d: Point, level: Int, depth: Int) -> List(Path) {
           let end_t = start_t+10
           let arc_end = 90 + i *35
           [
-            Path(Circle(Point(0,0), r), start)t, end_t, 2),
+            Path(Circle(Point(0,0), r), start_t, end_t, 2),
             Path(Arc(Point(0,0), r + 12, 0, arc_end), start_t+1, end_t+2, 3),
             Path(ColorLine(Point(0,0), Point(r,0),i), start_t, end_t, 2),
             ..rings(i+1,n)
