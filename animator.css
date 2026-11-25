@@ -181,3 +181,6 @@ html, body { width: 100%; height: 100%; overflow: hidden; }
   height: min(100cqw, 100cqh);
 }
 
+.output {
+  display: none !important;
+}
