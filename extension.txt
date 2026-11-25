@@ -1,0 +1,11 @@
+Describe your extension(s) here before implementing them.
+I want to make my animator olorful and way more customizable so it feels a lot 
+closer to a kinetic art example instead of just simple lines that currently 
+are in place. I first worked towards adding new shape variants within 
+shape.gleam and evaluator.gleam like ColorLine, Circle, ColorCircle and also 
+Arc (without spending the time changing Point, Line or even Path) so I can draw
+curved shapes and then pick exact colors right within my code. After I plan to start
+adding a color palette dropdwon and also neon glow toggle in the UI hopefully 
+so I can switch the vibe of the app along with the colors on the fly while playing
+with the sliders. To top it off, I will add a new example drawing using these curves and 
+colors so it is easy to test and show off.
